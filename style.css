@@ -1,0 +1,131 @@
+body{
+	background-color: darkred;
+	margin:0;
+	color: rgb(32, 32, 32);
+	font-family: 'courier', sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+H1 {
+	color:darkred;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+H2 {
+	color:darkred;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: gb(100, 100, 100);
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+#introduction p {
+	margin-bottom: 40px ;
+}
+
+.container{
+	width: 700px;
+	margin: 40px Auto;
+}
+
+
+
+
+.card-white {
+	background: rgb(230, 230, 230);
+	box-shadow: 3px 15px 35px darkgrey;
+	padding: 25px;
+	border-radius: 15px;
+	width: 500px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 15px;
+	width: 100px;
+}
+
+.ieseg-bouton{
+	background-color: darkred;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 15px;
+}
+
+.ieseg-bouton:hover{
+	background-color: white;
+	color: darkred;
+	padding: 15px 20px;
+}
+
+
+
+.list-inline i {
+	list-style: none;
+	font-size: 40px;
+	color: darkred;
+}
+.list-inline i:hover {
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+
+#list-activités {
+	padding: 0px;
+	list-style: none;
+	font-size: 14px;
+}
+#list-qualités {
+	list-style: none;
+	padding: 0px;
+	list-style: none;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width:500 px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
